@@ -1,0 +1,63 @@
+body {
+    background: url('https://images.wallpaperscraft.ru/image/single/derevia_les_zelenyj_120608_1920x1080.jpg') center center no-repeat fixed;
+    background-size: cover;
+    height: 140%;
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: 'JetBrains Mono';
+    font-size: 20px;
+}
+
+.card {
+    width: 400px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 1);
+    padding: 30px;
+    margin: 100px auto
+}
+
+.card h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 36px;
+}
+
+.card p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.card figure {
+    text-align: center;
+}
+
+.button-image {
+    cursor: pointer;
+}
+
+.button-image img {
+    max-width: 50%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin: 10px 20px;
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+}
+
